@@ -1,0 +1,49 @@
+.article-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+
+.article-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.article-card-header {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px;
+}
+
+.article-card-meta {
+  color: #666;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.article-card-description {
+  color: #555;
+  margin: 10px 15px;
+  text-align: justify;
+}
+
+.article-card-extra {
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.article-card-extra .icon {
+  color: #f39c12;
+}
